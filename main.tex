@@ -1,0 +1,145 @@
+ \documentclass[12pt,a4paper]{report}
+
+% ================= PACKAGES =================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{palatino}
+\usepackage[titles]{tocloft}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\setlength{\headheight}{14.5pt}
+\usepackage{longtable}
+\usepackage{xcolor} % Pour les couleurs
+\usepackage{colortbl} % Pour les couleurs dans les tableaux
+% Pour la version alternative :
+\usepackage{tikz} % Pour les éléments graphiques
+\usepackage{float}
+\usepackage{placeins} % Optionnel, pour \FloatBarrier
+\usepackage{pdflscape} % Pour les pages en mode paysage
+
+% ================= CONFIGURATION =================
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+% Configuration des en-têtes et pieds de page
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% Configuration de la table des matières
+\renewcommand{\cfttoctitlefont}{\huge\bfseries}
+\renewcommand{\contentsname}{Table des Matières}
+\renewcommand{\listfigurename}{Table des Figures}
+\renewcommand{\listtablename}{Liste des Tableaux}
+
+% Load hyperref last to avoid duplicate destination warnings
+\usepackage[hidelinks]{hyperref}
+
+% ================= DOCUMENT =================
+\begin{document}
+
+% ================= PAGE DE TITRE =================
+% Page de titre sans numéro
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge \textbf{Rapport de Projet de Fin d'Études}}\\[1cm]
+    {\LARGE \textbf{Développement d'un CRM Micro-SaaS Haute Performance}}\\[2cm]
+    
+    {\Large Présenté par :}\\[0.5cm]
+    {\Large AmenAllah}\\[1cm]
+    
+    {\Large Pour l'obtention du diplôme d'ingénieur en}\\[0.5cm]
+    {\Large Génie Logiciel}\\[2cm]
+    
+    {\Large Date : \today}
+    
+    \vfill
+\end{titlepage}
+
+% ================= PAGES PRÉLIMINAIRES =================
+% Numérotation en chiffres arabes à partir de 1
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Dédicace (page 1)
+\input{dedicace}
+\clearpage
+
+% Remerciements (page 2)
+\input{remerciements}
+\clearpage
+
+% Liste des acronymes (page 3)
+\input{acronyme}
+\clearpage
+
+% ================= TABLES =================
+% Table des matières (page 4)
+\tableofcontents
+\clearpage
+
+% Table des figures (page 5)
+\listoffigures
+\clearpage
+
+% Liste des tableaux (page 6)
+\listoftables
+\clearpage
+
+% ================= CONTENU PRINCIPAL =================
+% La numérotation continue automatiquement (page 7, 8, 9, ...)
+
+% Introduction générale (page 7)
+\input{introduction_generale}
+\clearpage
+
+% Chapitre 1 (page 8)
+\input{chapter1}
+\clearpage
+
+% Chapitre 2 (page 9)
+\input{chapter2}
+\clearpage
+
+% Chapitre 3 (page 10)
+\input{chapter3}
+\clearpage
+
+% Chapitre 4 (page 11)
+\input{chapter4}
+\clearpage
+
+% Conclusion (page 12)
+\input{conclusion}
+\clearpage
+
+% ================= ANNEXES =================
+% Annexes en chiffres arabes aussi
+%\appendix
+%\renewcommand{\chaptername}{Annexe}
+
+% Annexe A (page 13)
+%\input{annexe_a}
+%\clearpage
+
+% Annexe B (page 14)
+%\input{annexe_b}
+%\clearpage
+
+% ================= BIBLIOGRAPHIE =================
+% Bibliographie (page 15)
+%\bibliographystyle{plain}
+%\bibliography{bibliographie}
+%\addcontentsline{toc}{chapter}{Bibliographie}
+
+\end{document}

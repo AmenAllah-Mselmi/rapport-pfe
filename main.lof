@@ -1,0 +1,89 @@
+\babel@toc {french}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo de VisioAd}}{14}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Architecture conceptuelle du CRM}}{15}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Interface de Salesforce CRM}}{16}{figure.1.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Interface de HubSpot CRM}}{17}{figure.1.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Interface de Zoho CRM}}{17}{figure.1.5}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Visualisation comparative des différents CRM}}{19}{figure.1.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Principe de virtualisation dans les interfaces data-grid}}{21}{figure.1.7}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Aperçu de notre solution CRM}}{22}{figure.1.8}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Processus Scrum}}{23}{figure.1.9}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Processus Extreme Programming (XP)}}{24}{figure.1.10}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Processus Kanban}}{25}{figure.1.11}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Processus Waterfall (Cascade)}}{26}{figure.1.12}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Processus Unified Process (UP)}}{27}{figure.1.13}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Processus Two-Track Unified Process (2TUP)}}{28}{figure.1.14}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Processus 2TUP adopté pour le projet CRM}}{30}{figure.1.15}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Diagramme de Gantt du projet CRM (Février à Juillet - 4 Incréments)}}{31}{figure.1.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Structuration en packages fonctionnels du système CRM}}{38}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d’utilisation du côté « Sales Representative »}}{39}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme de cas d’utilisation du côté « Administrateur »}}{40}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de cas d’utilisation relatif à « Gérer les Leads »}}{41}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme de cas d’utilisation relatif à « Importer des Données »}}{42}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme de séquence système relatif au cas d’utilisation « S’authentifier »}}{43}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme de séquence système relatif au cas d’utilisation « Calculer le Score IA »}}{44}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagramme de séquence système relatif au cas d’utilisation « Générer Email via Gemini »}}{45}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagramme de séquence système relatif au cas d’utilisation « Importer des Données CSV »}}{46}{figure.2.9}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture globale de l'application (Image manquante)}}{48}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Principe du patron de conception MVC dans l'application (Image manquante)}}{49}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Principe du patron de conception DAO avec Prisma (Image manquante)}}{50}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Principe du patron de conception DTO}}{50}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme de classe d'entités du CRM}}{52}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Énumérations utilisées dans le modèle de données}}{53}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de séquence de conception \@FB@og ~S'authentifier~\@FB@fg \relax {}}}{54}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme de séquence de conception \@FB@og ~Calculer Score IA~\@FB@fg \relax {}}}{54}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme de séquence de conception \@FB@og ~Générer Email avec Gemini~\@FB@fg \relax {}}}{55}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces DCP du cas d'utilisation \@FB@og ~Gérer les Leads~\@FB@fg \relax {}}}{56}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces DCP du cas d'utilisation \@FB@og ~Importer Données CSV~\@FB@fg \relax {}}}{57}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagramme de blocs internes du système}}{58}{figure.3.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramme de déploiement}}{59}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Architecture MVC du front-end}}{61}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme de composants de l'application web}}{62}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Architecture modulaire du back-end NestJS}}{63}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Architecture microservices -- Agent IA de scoring}}{64}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Node.js}}{64}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Python}}{65}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces TypeScript}}{65}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Python - Microservice IA}}{66}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Next.js}}{66}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Nest.js}}{67}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces FastAPI}}{67}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces MySQL}}{68}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Prisma}}{68}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Visual Studio Code}}{69}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Docker}}{70}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Kubernetes and Helm}}{70}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces GitHub and GitHub Actions}}{71}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Postman}}{71}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Swagger}}{72}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Microsoft Power BI}}{72}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Draw.io}}{73}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Overleaf}}{73}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Interface de connexion}}{74}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Interface d'inscription}}{75}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Interface tableau de bord Admin}}{76}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Interface gestion des leads}}{76}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Interface détails d'un lead avec scoring IA}}{77}{figure.4.28}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Interface gestion des contacts}}{78}{figure.4.29}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Interface gestion des entreprises}}{78}{figure.4.30}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Interface Pipeline de vente}}{79}{figure.4.31}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Interface gestion des tickets}}{79}{figure.4.32}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Interface Analytics - Vue d'ensemble}}{80}{figure.4.33}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Interface Analytics - Performance d'équipe}}{80}{figure.4.34}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Interface Analytics - Prévisions}}{81}{figure.4.35}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Interface gestion des comptes utilisateurs}}{81}{figure.4.36}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Interface tableau de bord Sales Representative}}{82}{figure.4.37}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Interface leads du Sales Representative}}{82}{figure.4.38}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Interface de Chat en temps réel}}{83}{figure.4.39}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Interface d'import CSV - Étape 1}}{84}{figure.4.40}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Interface d'import CSV - Étape 2}}{85}{figure.4.41}%
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Interface d'import CSV - Étape 3}}{86}{figure.4.42}%
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Interface de génération d'e-mails par IA}}{87}{figure.4.43}%
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Interface de l'assistant conversationnel (Chatbot) RAG (Image manquante)}}{87}{figure.4.44}%
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Résumé exécutif Power BI}}{88}{figure.4.45}%
+\contentsline {figure}{\numberline {4.46}{\ignorespaces Pipeline de ventes Power BI}}{88}{figure.4.46}%
+\contentsline {figure}{\numberline {4.47}{\ignorespaces Engagement client Power BI}}{89}{figure.4.47}%

@@ -1,0 +1,193 @@
+% ============================================================================
+%  CONCLUSION GÉNÉRALE ET PERSPECTIVES
+% ============================================================================
+%  À inclure dans votre document principal avec : \input{conclusion_perspectives}
+%  Pré-requis packages : hyperref, url, enumitem (normalement déjà chargés)
+% ============================================================================
+
+\chapter*{Conclusion Générale et Perspectives}
+\addcontentsline{toc}{chapter}{Conclusion Générale et Perspectives}
+\markboth{Conclusion Générale et Perspectives}{Conclusion Générale et Perspectives}
+
+% ── Introduction de la conclusion ──────────────────────────────────────────────
+Dans un contexte économique où l'optimisation des processus de vente et de l'écoute client constitue un levier stratégique majeur, les entreprises visent l'optimisation de leur process de vente et l'exploitation intelligente de leurs données. C'est dans cette perspective que s'inscrit notre projet de fin d'études, réalisé au sein de la société \textbf{Proxym}, portant sur la conception et le développement d'une plateforme CRM intelligente intégrant un module de \textit{Lead Scoring} basé sur l'intelligence artificielle.
+
+% ── Récapitulatif du projet ───────────────────────────────────────────────────
+Notre plateforme \textbf{CRM Lead Scoring} est conçue pour répondre aux besoins croissants des équipes commerciales en matière de gestion des prospects, de suivi des opportunités et de prise de décision assistée par les données. Des fonctionnalités telles que la gestion des leads, des contacts et des entreprises, le pipeline commercial avec suivi des deals, le système de ticketing, la messagerie interne en temps réel, les notifications, l'import CSV, la génération d'e-mails assistée par IA ainsi que l'assistant conversationnel (Chatbot) intelligent en temps réel (via Google Gemini RAG) et le scoring prédictif des leads permettent une expérience complète, intuitive et performante pour les utilisateurs. Cette approche a pour objectif d'accroître la productivité des commerciaux, d'améliorer le taux de conversion des prospects et de donner aux managers une meilleure visibilité sur l'activité de leurs équipes grâce à des tableaux de bord analytiques enrichis.
+
+% ── Méthodologie ──────────────────────────────────────────────────────────────
+C'est dans cet esprit que ce travail de fin d'études, effectué au sein de la société \textbf{Proxym}, a consisté en la conception et le développement d'une application web générique, performante, évolutive et sécurisée. Pour y parvenir, nous avons notamment choisi de nous appuyer sur la méthodologie \textbf{2TUP} (\textit{Two Track Unified Process}) fondée sur un processus de développement itératif et incrémental, permettant ainsi d'assurer une séparation nette entre les aspects fonctionnels et techniques du projet.
+
+% ── Parcours du rapport ──────────────────────────────────────────────────────
+Dans ce rapport, nous décrivons les différentes étapes que nous avons suivies pour réaliser notre solution :
+\begin{itemize}
+    \item Nous avons tout d'abord introduit le \textbf{cadre général} de notre travail, en précisant le contexte de l'entreprise d'accueil et la problématique traitée.
+    \item Ensuite, on a présenté les \textbf{concepts clés} de la solution, notamment les architectures logicielles choisies (MVC, microservices).
+    \item Nous avons précisé les autres \textbf{besoins fonctionnels et non fonctionnels} détectés ainsi que l'\textbf{analyse et spécifications des besoins} par les diagrammes de cas d'utilisation et de séquence.
+    \item Puis, nous avons vu l'\textbf{aperçu conceptuel} avec les diagrammes de classes et l'architecture globale du système.
+    \item Enfin, nous avons présenté la phase de \textbf{réalisation}, incluant l'environnement technique, les interfaces développées et les tests effectués.
+\end{itemize}
+
+% ── Apports du projet ────────────────────────────────────────────────────────
+Il convient de noter que la réalisation de ce projet a eu des effets bénéfiques sur plusieurs plans :
+
+\begin{itemize}
+    \item \textbf{Sur le plan de la méthodologie :} Nous avons eu la chance d'apprendre les bonnes pratiques de construction grâce à la méthode \textbf{2TUP}. Cette dernière a permis une structure rigoureuse tout en offrant une souplesse face aux modifications de spécification.
+
+    \item \textbf{En ce qui concerne la technologie :} nous avons fait usage de technologies modernes et de patterns de conception évoluées permettant d'aller bien au-delà du cadre académique. On peut citer notamment les suivantes :
+    \begin{itemize}
+        \item \textbf{NestJS} avec \textbf{Typescript} pour la construction d'une API RESTful, modulaire et maintenable sur la couche Backend, grâce à la mise en œuvre de la fonctionnalité des décorateurs, injection de dépendance et architecture modulaire.
+        \item \textbf{Prisma ORM} et \textbf{Base de données MySQL} pour la gestion type-safe et performante de la couche persistance.
+        \item \textbf{Next.js 16} et \textbf{React 19} pour le développement d'une UI réactive et moderne sur la couche Frontend, incluant la gestion du SSR et de la gestion d'état avec \textbf{Zustand}.
+        \item \textbf{FastAPI} (Python) pour l'agent de scoring intelligent, basé sur un modèle de classification \textbf{Random Forest} entraîné avec \textbf{scikit-learn} pour prédire la probabilité de conversion des leads.
+        \item \textbf{Socket.IO} pour la communication temps-réel (messagerie interne et notifications push).
+        \item \textbf{Docker} et \textbf{Docker Compose} pour la containerisation de tous les services (MySQL, Backend, Frontend et Agent IA).
+        \item \textbf{Kubernetes} et \textbf{Helm Chart} pour l'orchestration et le déploiement.
+        \item \textbf{Google Gemini AI} pour la génération intelligente d'e-mails et le chatbot conversationnel avec approche RAG.
+        \item \textbf{Power BI} pour la création de tableaux de bord analytiques et la visualisation des données métier.
+    \end{itemize}
+    
+    \item \textbf{Plan personnel et professionnel :} Ce projet nous a donné une meilleure compréhension de l'impact de la profondeur du travail en équipe et de la productivité dans le cadre de l'ingénierie informatique dans une entreprise de services. Par conséquent, cette expérience nous a aidés à développer nos capacités d'intégration et de communication et la maîtrise de notre capacité de travail d'équipe, de gestion du temps et de résolution de problèmes complexes.
+\end{itemize}
+
+% ── Perspectives ─────────────────────────────────────────────────────────────
+\section*{Perspectives}
+\addcontentsline{toc}{section}{Perspectives}
+
+Au sujet des perspectives futures, il est question de faire évoluer la plateforme par l'ajout de certaines fonctionnalités pouvant l'améliorer encore plus :
+
+\begin{enumerate}
+    \item \textbf{Langage naturel (NLP) :} ajouter une fonctionnalité qui peut analyser le texte d'une conversation e-mail avec un prospect pour détecter les intentions de celui-ci et son niveau de satisfaction pour un scoring plus contextuel et pertinent.
+
+    \item \textbf{Recommandations personnalisées :} utiliser l'apprentissage machine afin de suggérer aux commerciaux des actions personnalisées comme le meilleur moment pour contacter la personne, le canal à privilégier ainsi que le contenu qu'il faut utiliser.
+
+    \item \textbf{Analytique avancée et tableaux de bord prédictifs :} continuer la connexion de la plateforme à \textbf{Power BI} pour permettre des analyses et prévisions de vente, ainsi que des indicateurs de performance en temps réel.
+
+    \item \textbf{Application mobile :} créer une application mobile de la plateforme soit en React Native soit en Flutter pour faciliter le travail du commercial en déplacement.
+
+    \item \textbf{Architecture multitenant :} Adapter la plateforme afin qu'elle supporte plusieurs entreprises séparément et créer ainsi le fondement d'un modèle de service logiciel.
+
+    \item \textbf{Évolution vers une architecture microservices :} Faire en sorte que la plateforme soit décomposée en services distincts (lead, contact, e-mails, scoring) qui s'échangent entre eux par le biais de messagerie (RabbitMQ, Kafka).
+
+    \item \textbf{Gamification :} Intégrer des éléments de gamification (points, badges, classement) afin de motiver les équipes commerciales à utiliser la plateforme.
+\end{enumerate}
+
+% ── Clôture ──────────────────────────────────────────────────────────────────
+\vspace{0.5cm}
+
+Grâce à ce stage, nous avons donc eu le temps d'apprendre à analyser critiquement les idées pour toujours essayer de progresser et innover. Nous avons eu certaines difficultés au niveau technique notamment la configuration du pipeline CI/CD, la containerisation et le choix du modèle de Machine Learning, mais nous avons réussi à y remédier par une solution alternative. Il est important de mentionner que les contraintes de temps et de synchronisation entre les différents modules du projet ont limité nos travaux. Cependant, cette expérience nous a beaucoup apportés dans l'apprentissage rapide et la manipulation de technologies variées et complémentaires.
+
+\vspace{0.5cm}
+
+Finalement, nous espérons que ce modeste travail apportera satisfaction et qu'il constituera une base solide pour de futures améliorations et évolutions de la plateforme.
+
+% ============================================================================
+%  BIBLIOGRAPHIE
+% ============================================================================
+\begin{thebibliography}{99}
+
+\bibitem{agile}
+    Les méthodes Agiles, \textit{Nutcache}.
+    \url{https://www.nutcache.com/fr/blog/les-methodes-agiles/}
+    [Consulté Mai 2026].
+
+\bibitem{2tup}
+    Two Tracks Unified Process, \textit{Wikipédia}.
+    \url{https://fr.wikipedia.org/wiki/Two_Tracks_Unified_Process}
+    [Consulté Mai 2026].
+
+\bibitem{processusY}
+    Processus de développement en Y, \textit{SCRIBD / Blog}.
+    \url{http://imilsoftware.blogspot.com/2017/01/processus-de-developpement-en-y.html}
+    [Consulté Mai 2026].
+
+\bibitem{mvc}
+    MVC Architecture Pattern, \textit{Mozilla Developer Network}.
+    \url{https://developer.mozilla.org/en-US/docs/Glossary/MVC}
+    [Consulté Mai 2026].
+
+\bibitem{nestjs}
+    NestJS -- A progressive Node.js framework.
+    \url{https://docs.nestjs.com/}
+    [Consulté Mai 2026].
+
+\bibitem{nextjs}
+    Next.js Documentation, \textit{Vercel}.
+    \url{https://nextjs.org/docs}
+    [Consulté Mai 2026].
+
+\bibitem{prisma}
+    Prisma -- Next-generation ORM for Node.js \& TypeScript.
+    \url{https://www.prisma.io/docs}
+    [Consulté Mai 2026].
+
+\bibitem{mysql}
+    MySQL Documentation, \textit{Oracle}.
+    \url{https://dev.mysql.com/doc/}
+    [Consulté Mai 2026].
+
+\bibitem{fastapi}
+    FastAPI -- Modern Python web framework.
+    \url{https://fastapi.tiangolo.com/}
+    [Consulté Mai 2026].
+
+\bibitem{sklearn}
+    scikit-learn -- Machine Learning in Python.
+    \url{https://scikit-learn.org/stable/}
+    [Consulté Mai 2026].
+
+\bibitem{randomforest}
+    L. Breiman, ``Random Forests'', \textit{Machine Learning}, vol.~45, no.~1,
+    pp.~5--32, 2001.
+
+\bibitem{docker}
+    Docker Documentation.
+    \url{https://docs.docker.com/}
+    [Consulté Mai 2026].
+
+\bibitem{kubernetes}
+    Kubernetes Documentation.
+    \url{https://kubernetes.io/docs/}
+    [Consulté Mai 2026].
+
+\bibitem{helm}
+    Helm -- The package manager for Kubernetes.
+    \url{https://helm.sh/docs/}
+    [Consulté Mai 2026].
+
+\bibitem{githubactions}
+    GitHub Actions Documentation.
+    \url{https://docs.github.com/en/actions}
+    [Consulté Mai 2026].
+
+\bibitem{socketio}
+    Socket.IO Documentation.
+    \url{https://socket.io/docs/v4/}
+    [Consulté Mai 2026].
+
+\bibitem{gemini}
+    Google Gemini AI API Documentation.
+    \url{https://ai.google.dev/docs}
+    [Consulté Mai 2026].
+
+\bibitem{zustand}
+    Zustand -- State management for React.
+    \url{https://zustand-demo.pmnd.rs/}
+    [Consulté Mai 2026].
+
+\bibitem{powerbi}
+    Microsoft Power BI Documentation.
+    \url{https://learn.microsoft.com/en-us/power-bi/}
+    [Consulté Mai 2026].
+
+\bibitem{typescript}
+    TypeScript Documentation, \textit{Microsoft}.
+    \url{https://www.typescriptlang.org/docs/}
+    [Consulté Mai 2026].
+
+\bibitem{jwt}
+    JSON Web Tokens -- Introduction.
+    \url{https://jwt.io/introduction}
+    [Consulté Mai 2026].
+
+\end{thebibliography}

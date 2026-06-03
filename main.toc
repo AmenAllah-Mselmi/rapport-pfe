@@ -1,0 +1,138 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Dédicace}{1}{chapter*.1}%
+\contentsline {chapter}{Remerciements}{2}{chapter*.2}%
+\contentsline {chapter}{Liste des Acronymes}{4}{chapter*.3}%
+\contentsline {chapter}{Introduction Générale}{12}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Cadre du projet}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{13}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Contexte général du projet}{13}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Cadre du projet}{13}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Présentation de la société d'accueil : VisioAd}{13}{subsection.1.2.2}%
+\contentsline {subsubsection}{Services}{14}{section*.8}%
+\contentsline {subsubsection}{Technologies adoptées}{14}{section*.9}%
+\contentsline {section}{\numberline {1.3}Idée émergeante et étude de l'existant}{14}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Idée émergeante}{14}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Analyse comparative des CRM existants}{15}{subsection.1.3.2}%
+\contentsline {subsubsection}{Salesforce CRM}{15}{section*.10}%
+\contentsline {subsubsection}{HubSpot CRM}{16}{section*.11}%
+\contentsline {subsubsection}{Zoho CRM}{17}{section*.12}%
+\contentsline {subsection}{\numberline {1.3.3}Tableau comparatif synthétique}{18}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Critique de l'existant}{20}{subsection.1.3.4}%
+\contentsline {subsubsection}{Critique du système actuel}{20}{section*.13}%
+\contentsline {subsubsection}{État de l'art}{20}{section*.14}%
+\contentsline {subsection}{\numberline {1.3.5}Solution proposée}{22}{subsection.1.3.5}%
+\contentsline {section}{\numberline {1.4}Méthodologie de développement}{23}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Étude des méthodes existantes}{23}{subsection.1.4.1}%
+\contentsline {subsubsection}{Scrum}{23}{section*.15}%
+\contentsline {subsubsection}{Extreme Programming (XP)}{23}{section*.16}%
+\contentsline {subsubsection}{Kanban}{24}{section*.17}%
+\contentsline {subsubsection}{Waterfall (Cascade)}{26}{section*.18}%
+\contentsline {subsubsection}{Unified Process (UP)}{26}{section*.19}%
+\contentsline {subsubsection}{Two-Track Unified Process (2TUP)}{27}{section*.20}%
+\contentsline {subsection}{\numberline {1.4.2}Choix de la méthodologie}{29}{subsection.1.4.2}%
+\contentsline {subsubsection}{Raisons du choix de 2TUP}{29}{section*.21}%
+\contentsline {subsection}{\numberline {1.4.3}Choix des formalismes adéquats}{31}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Planification}{31}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Conclusion}{32}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Analyse et spécification des besoins}{33}{chapter.2}%
+\contentsline {section}{Introduction}{33}{section*.22}%
+\contentsline {section}{\numberline {2.1}Identification des acteurs}{33}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Spécification des besoins}{34}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Les besoins fonctionnels}{34}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Les besoins non fonctionnels}{36}{subsection.2.2.2}%
+\contentsline {subsubsection}{A. Sécurité et Confidentialité}{36}{section*.25}%
+\contentsline {subsubsection}{B. Performance et Réactivité}{36}{section*.26}%
+\contentsline {subsubsection}{C. Disponibilité, Résilience et Tolérance aux pannes}{36}{section*.27}%
+\contentsline {subsubsection}{D. Évolutivité et Scalabilité}{37}{section*.28}%
+\contentsline {subsubsection}{E. Maintenabilité et Qualité du Code}{37}{section*.29}%
+\contentsline {subsubsection}{F. Ergonomie et Utilisabilité (UX/UI)}{37}{section*.30}%
+\contentsline {subsubsection}{G. Interopérabilité}{37}{section*.31}%
+\contentsline {section}{\numberline {2.3}Diagrammes de cas d’utilisation}{38}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Structuration en packages}{38}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Diagramme de cas d’utilisation du côté « Sales Representative »}{38}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Diagramme de cas d’utilisation du côté « Administrateur »}{39}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Diagramme de cas d’utilisation relatif au cas d’utilisation « Gérer les Leads »}{41}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Diagramme de cas d’utilisation relatif au cas d’utilisation « Importer des Données »}{41}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Diagrammes de séquence système}{42}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Diagramme de séquence système relatif au cas d’utilisation « S’authentifier »}{42}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Diagramme de séquence système relatif au cas d’utilisation « Calculer le Score IA »}{43}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Diagramme de séquence système relatif au cas d’utilisation « Générer Email avec Gemini »}{44}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Diagramme de séquence système relatif au cas d’utilisation « Importer des Données CSV »}{45}{subsection.2.4.4}%
+\contentsline {chapter}{\numberline {3}Aperçu conceptuel et Conception détaillée}{47}{chapter.3}%
+\contentsline {section}{Introduction}{47}{section*.33}%
+\contentsline {section}{\numberline {3.1}Architecture physique et logique}{47}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Architecture 3-tiers orientée services}{47}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Patrons de conception}{48}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Patron de conception MVC (Modèle-Vue-Contrôleur)}{48}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Patron de conception DAO (Data Access Object) / Repository}{49}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Patron de conception DTO (Data Transfer Object)}{50}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Conception détaillée}{51}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Diagramme de classe d’entités}{51}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Diagrammes de séquences de conception (DSC)}{53}{subsection.3.3.2}%
+\contentsline {subsubsection}{Diagramme de séquence de conception \@FB@og ~S'authentifier~\@FB@fg \relax {}}{53}{section*.34}%
+\contentsline {subsubsection}{Diagramme de séquence de conception \@FB@og ~Calculer Score IA (Lead Scoring)~\@FB@fg \relax {}}{54}{section*.35}%
+\contentsline {subsubsection}{Diagramme de séquence de conception \@FB@og ~Générer Email avec Gemini~\@FB@fg \relax {}}{55}{section*.36}%
+\contentsline {subsection}{\numberline {3.3.3}Diagramme de classes participantes (DCP)}{55}{subsection.3.3.3}%
+\contentsline {subsubsection}{DCP du cas d'utilisation \@FB@og ~Gérer les Leads~\@FB@fg \relax {}}{55}{section*.37}%
+\contentsline {subsubsection}{DCP du cas d'utilisation \@FB@og ~Importer Données CSV~\@FB@fg \relax {}}{56}{section*.38}%
+\contentsline {subsection}{\numberline {3.3.4}Diagramme de blocs internes}{57}{subsection.3.3.4}%
+\contentsline {section}{Conclusion}{58}{section*.39}%
+\contentsline {chapter}{\numberline {4}Réalisation}{59}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Diagramme de déploiement}{59}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Le style architectural}{61}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Partie front-end}{61}{subsection.4.2.1}%
+\contentsline {subsubsection}{Architecture MVC avec Next.js}{61}{section*.41}%
+\contentsline {subsubsection}{Diagramme de composants front-end}{61}{section*.42}%
+\contentsline {subsection}{\numberline {4.2.2}Partie back-end}{62}{subsection.4.2.2}%
+\contentsline {subsubsection}{Architecture Modulaire NestJS}{62}{section*.43}%
+\contentsline {subsubsection}{Architecture Microservices -- Agent IA}{63}{section*.44}%
+\contentsline {subsubsection}{Diagramme de composants back-end}{64}{section*.45}%
+\contentsline {section}{\numberline {4.3}Environnement de développement}{64}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Technologies de programmation}{64}{subsection.4.3.1}%
+\contentsline {subsubsection}{Node.js}{64}{section*.46}%
+\contentsline {subsubsection}{Python}{65}{section*.47}%
+\contentsline {subsection}{\numberline {4.3.2}Langages de programmation}{65}{subsection.4.3.2}%
+\contentsline {subsubsection}{TypeScript}{65}{section*.48}%
+\contentsline {subsubsection}{Python}{65}{section*.49}%
+\contentsline {subsection}{\numberline {4.3.3}Frameworks}{66}{subsection.4.3.3}%
+\contentsline {subsubsection}{Next.js}{66}{section*.50}%
+\contentsline {subsubsection}{NestJS}{66}{section*.51}%
+\contentsline {subsubsection}{FastAPI}{67}{section*.52}%
+\contentsline {subsection}{\numberline {4.3.4}Base de données}{67}{subsection.4.3.4}%
+\contentsline {subsubsection}{Système de gestion de base de données}{67}{section*.53}%
+\contentsline {subsubsection}{ORM -- Prisma}{68}{section*.54}%
+\contentsline {subsection}{\numberline {4.3.5}Outils de développement}{69}{subsection.4.3.5}%
+\contentsline {subsubsection}{Visual Studio Code}{69}{section*.55}%
+\contentsline {subsubsection}{Docker \& Docker Compose}{69}{section*.56}%
+\contentsline {subsubsection}{Kubernetes \& Helm}{70}{section*.57}%
+\contentsline {subsubsection}{GitHub \& GitHub Actions}{70}{section*.58}%
+\contentsline {subsubsection}{Postman}{71}{section*.59}%
+\contentsline {subsubsection}{Swagger}{71}{section*.60}%
+\contentsline {subsubsection}{Power BI}{72}{section*.61}%
+\contentsline {subsubsection}{Draw.io}{72}{section*.62}%
+\contentsline {subsubsection}{Overleaf}{73}{section*.63}%
+\contentsline {section}{\numberline {4.4}Présentation de l'application}{73}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Module d'authentification}{74}{subsection.4.4.1}%
+\contentsline {subsubsection}{Interface de connexion}{74}{section*.64}%
+\contentsline {subsubsection}{Interface d'inscription}{74}{section*.65}%
+\contentsline {subsection}{\numberline {4.4.2}Partie Admin (Sales Manager)}{75}{subsection.4.4.2}%
+\contentsline {subsubsection}{Interface tableau de bord Admin}{75}{section*.66}%
+\contentsline {subsubsection}{Interface gestion des leads}{76}{section*.67}%
+\contentsline {subsubsection}{Interface détails d'un lead avec scoring IA}{76}{section*.68}%
+\contentsline {subsubsection}{Interface gestion des contacts}{78}{section*.69}%
+\contentsline {subsubsection}{Interface gestion des entreprises}{78}{section*.70}%
+\contentsline {subsubsection}{Interface Pipeline de vente}{79}{section*.71}%
+\contentsline {subsubsection}{Interface gestion des tickets}{79}{section*.72}%
+\contentsline {subsubsection}{Interface Analytics}{80}{section*.73}%
+\contentsline {subsubsection}{Interface gestion des comptes}{81}{section*.74}%
+\contentsline {subsection}{\numberline {4.4.3}Partie Sales Representative (Rep)}{81}{subsection.4.4.3}%
+\contentsline {subsubsection}{Interface tableau de bord Rep}{81}{section*.75}%
+\contentsline {subsubsection}{Interfaces du Rep -- Leads, Contacts et Pipeline}{82}{section*.76}%
+\contentsline {subsection}{\numberline {4.4.4}Fonctionnalités transversales}{82}{subsection.4.4.4}%
+\contentsline {subsubsection}{Interface de Chat en temps réel}{82}{section*.77}%
+\contentsline {subsubsection}{Interface d'import CSV}{84}{section*.78}%
+\contentsline {subsubsection}{Interface de génération d'e-mails par IA}{86}{section*.79}%
+\contentsline {subsubsection}{Assistant conversationnel (Chatbot) intelligent avec RAG}{87}{section*.80}%
+\contentsline {subsubsection}{Tableau de bord Power BI}{88}{section*.81}%
+\contentsline {chapter}{Conclusion Générale et Perspectives}{90}{chapter*.83}%
+\contentsline {section}{Perspectives}{91}{section*.84}%
